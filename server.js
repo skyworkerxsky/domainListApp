@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/domains', (req, res) => {
-  const domainList = ["https://personal.mts.ru"];
+  const domainList = ["https://profile.mts.ru"];
   res.json(domainList);
 });
 
